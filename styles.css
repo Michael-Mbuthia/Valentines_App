@@ -38,9 +38,8 @@ body {
 }
 
 .btn-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display:block;
+    justify-content:space-between;
     gap: 15px;
 }
 
@@ -50,6 +49,7 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 50px;
+  
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
